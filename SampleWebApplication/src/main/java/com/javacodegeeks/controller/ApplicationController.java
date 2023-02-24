@@ -24,7 +24,7 @@ public class ApplicationController {
 	public String welcomeName(@PathVariable String arg, ModelMap model) {
 		model.addAttribute("msgArgument", "Maven Java Web Application Project, input variable: " + arg);
 		
-		return "index";
+		return "index1";
 	}
  
 }
